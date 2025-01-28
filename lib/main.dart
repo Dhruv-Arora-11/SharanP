@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:test_web/techSPR.dart/splashScreen.dart';
+import 'package:test_web/SharanP/homeScreen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home:SplashScreen(),
+      home:Homescreen(),
 
     );
   }
